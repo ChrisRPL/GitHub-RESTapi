@@ -26,7 +26,7 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
-        <e p="Repositories" t="Include">
+        <e p="Services" t="Include">
           <e p="Implementations" t="Include">
             <e p="GitHubRepoService.cs" t="Include" />
           </e>

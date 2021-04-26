@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GitHub_RESTapi.Controllers
 {
     [ApiController]
-    [Route("api/repositories")]
+    [Route("repositories")]
     public class GitHubRepoController : ControllerBase
     {
         private readonly IGitHubRepoService _gitHubRepoService;
