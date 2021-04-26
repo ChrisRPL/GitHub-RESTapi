@@ -9,9 +9,12 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="GitHubRepoController.cs" t="Include" />
         </e>
         <e p="GitHub-RESTapi.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="GitHubRepoInfo.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -23,8 +26,15 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Repositories" t="Include">
+          <e p="Implementations" t="Include">
+            <e p="GitHubRepoService.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IGitHubRepoService.cs" t="Include" />
+          </e>
+        </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="GitHub-RESTapi.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
