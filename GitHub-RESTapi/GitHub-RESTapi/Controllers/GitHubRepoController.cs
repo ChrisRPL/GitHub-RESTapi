@@ -25,10 +25,9 @@ namespace GitHub_RESTapi.Controllers
                 var result = await _gitHubRepoService.GetGitHubRepoInfoAsync(owner, repositoryName);
                 return Ok(result);
             }
-            catch (Exception e)
+            catch (ArgumentException e)
             {
-                Console.WriteLine(e);
-                return NotFound("Repository not found!");
+                return NotFound(e.Message);
             }
             
         }

@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae9e8af-3d6b-48a1-9c8b-2a6d5a815f3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GitHub-RESTapi/Controllers/GitHubRepoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub-RESTapi/Models/GitHubRepoInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub-RESTapi/Services/Interfaces/IGitHubRepoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub-RESTapi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub-RESTapi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GitHub-RESTapi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GitHub-RESTapi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/GitHub-RESTapi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub-RESTapi/GitHub-RESTapi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub-RESTapi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/Controllers/GitHubRepoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub-RESTapi/Controllers/GitHubRepoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +31,9 @@
       <option value="$PROJECT_DIR$/GitHub-RESTapi/Repositories/Interfaces/IGitHubRepoService.cs" />
       <option value="$PROJECT_DIR$/GitHub-RESTapi/Startup.cs" />
       <option value="$PROJECT_DIR$/GitHub-RESTapi/Repositories/Implementations/GitHubRepoService.cs" />
-      <option value="$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs" />
       <option value="$PROJECT_DIR$/GitHub-RESTapi/Services/Interfaces/IGitHubRepoService.cs" />
       <option value="$PROJECT_DIR$/GitHub-RESTapi/Controllers/GitHubRepoController.cs" />
+      <option value="$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rhimXLcwWmb9DbqKxDzEmCmjHT" />
@@ -96,14 +89,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619434886029</updated>
-      <workItem from="1619434889116" duration="6169000" />
+      <workItem from="1619434889116" duration="6398000" />
+      <workItem from="1620153933843" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,8 +109,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/GitHub-RESTapi/Services/Implementations/GitHubRepoService.cs</url>
+          <line>14</line>
+          <properties documentPath="C:\Users\Krzysztof\Desktop\empik\GitHub-RESTapi\GitHub-RESTapi\GitHub-RESTapi\Services\Implementations\GitHubRepoService.cs" initialLine="14" containingFunctionPresentation="method 'GetGitHubRepoInfoAsync'">
+            <startOffsets>
+              <option value="435" />
+            </startOffsets>
+            <endOffsets>
+              <option value="508" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

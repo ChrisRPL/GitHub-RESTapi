@@ -12,9 +12,8 @@ namespace GitHub_RESTapi.Services.Implementations
     {
         public async Task<GitHubRepoInfo> GetGitHubRepoInfoAsync(string owner, string repositoryName)
         {
-            using var handler = new HttpClientHandler();
-            handler.UseDefaultCredentials = true;
-            
+            using var handler = new HttpClientHandler {UseDefaultCredentials = true};
+
             using var httpClient = new HttpClient(handler);
             httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("request");
             
@@ -43,7 +42,7 @@ namespace GitHub_RESTapi.Services.Implementations
                 };
             }
 
-            throw new Exception();
+            throw new ArgumentException("Repository not found or repository is private!");
         }
     }
 }
